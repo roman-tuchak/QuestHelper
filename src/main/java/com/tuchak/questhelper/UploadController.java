@@ -12,6 +12,6 @@ public class UploadController {
 
     @RequestMapping (method = RequestMethod.GET)
     public ModelAndView getPage() {
-        return new ModelAndView("");
+        return new ModelAndView("upload");
     }
 }
